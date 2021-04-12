@@ -7,6 +7,12 @@
 html{
     width: fit-content;
 }
+p{
+    color: #535252;
+}
+li{
+    color: #535252;
+}
 section{
     width: 90%;
     height: 100%;
@@ -139,6 +145,7 @@ nav {
 }
 .go-right{
     display: flex;
+    justify-content: center;
 }
 .left-side{
     margin-left: 20px;

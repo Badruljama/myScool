@@ -802,6 +802,7 @@ footer{
         letter-spacing: 0.1em;
     }
     .nav-menu .menu-li{
+        color: #ffff;
         cursor: pointer;
         transition: 0.5s;
         font-size: 1.2rem;

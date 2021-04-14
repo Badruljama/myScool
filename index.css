@@ -158,7 +158,7 @@ nav {
     padding: 30px;
 }
 .profile-pi{
-    width: 80%;
+    width: 70%;
     height: auto;
     margin-left: 30px;
 }
@@ -215,7 +215,7 @@ nav {
     float: left;
     background-color: #ffff;
     box-shadow: 0px 0px 10px #bebebe;
-    width: 25%;
+    width: 27%;
     border-radius: 20px;
     padding: 10px;
 }
@@ -231,7 +231,7 @@ nav {
 }
 .tak ul{
     margin-top: 15px;
-    padding: 15px;
+    padding: 11.5px;
 }
 .tak ul li{
     margin: 15px;
@@ -240,7 +240,7 @@ nav {
 }
 .tak ul li .curcle{
     float: left;
-    margin-top: 3px;
+    margin-top: 8px;
     margin-left: -15px;
     width: 10px;
     height: 10px;
@@ -254,11 +254,11 @@ nav {
 }
 .overview{
     float: right;
-    margin-right: 5.5rem;
+    margin-right: 4rem;
     background-color: #ffff;
     box-shadow: 0px 0px 10px #bebebe;
     width: 65%;
-    height: 29vw;
+    height: auto;
     border-radius: 20px;
 }
 .course{
@@ -272,7 +272,7 @@ nav {
     line-height: 1.5;
 }
 .over-list{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-left: 0px;
     padding: 30px;
     line-height: 1.5;
@@ -360,9 +360,13 @@ iframe{
     margin-left: 10px;
     padding: 20px;
 }
+#feed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .feedback_list{
     width: 80%;
-    margin-left: 130px;
 }
 .feedback{
     margin-top: 90px;
@@ -615,6 +619,11 @@ footer{
 
 
 /********** media query **********/
+@media (max-width:1350px){
+    .tak ul li p{
+        margin-left: 0;
+    }
+}
 @media (max-width:1200px){
     html{
         width: fit-content;
@@ -747,15 +756,15 @@ footer{
         width: 100%;
         height: auto;
     }
+    .digital-2{
+        display: block;
+    }
     .tak-2{
         width: 100%;
     }
     .experient{
-        margin-right: 0;
+        margin-left: 0;
         width: 100%;
-    }
-    .feedback_list {
-        margin-left: 110px;
     }
     .footr-sec{
         margin-left: 0px;
@@ -776,8 +785,8 @@ footer{
     nav{
         display: block;
         background: #000;
-        width: 270px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         position: absolute;
         top: 40px;
         margin-left: 0;
@@ -795,6 +804,7 @@ footer{
     .nav-menu .menu-li{
         cursor: pointer;
         transition: 0.5s;
+        font-size: 1.2rem;
     }
     .nav-menu .menu-li:hover{
         background: #F3164D;
@@ -835,6 +845,7 @@ footer{
         width: 100%;
         height: 100%;
     }
+
 }
 
 @media (max-width:816px){
